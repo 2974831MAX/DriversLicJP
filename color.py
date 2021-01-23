@@ -12,7 +12,7 @@ birthday = "1997-02-05";
 
 # 最後の違反日
 # resultとfmtからstrptime
-print(janera.strptime("本日は <平成30年11月11日15時>", "本日は <%-E%-O年%m月%d日%H時>"))
+print(janera.strptime("本日は <平成30年11月11日>", "本日は <%-E%-O年%m月%d日>"))
     # -> [datetime.datetime(2019, 4, 16, 0, 0)]
 print ("最近（直近）の違反日時")
 last_pstr = "平成30年11月11日"
